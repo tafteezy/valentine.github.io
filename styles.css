@@ -59,7 +59,6 @@ body {
 }
 
 #yesButton {
-    position: relative;
     margin-right: 150px;
 }
 /* Adjustments for smaller screens */
@@ -79,9 +78,13 @@ body {
     
     #noButton {
         margin-left: 20px; /* Adjust margin for smaller screens */
+        margin: 4px 10px;
+        
+        
     }
     
     #yesButton {
         margin-right: 20px; /* Adjust margin for smaller screens */
+        margin: 4px 10px;
     }
 }
