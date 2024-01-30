@@ -74,6 +74,7 @@ body {
     
     .btn {
         padding: 10px 20px; /* Adjust button padding for smaller screens */
+        margin: 4px 10px;
     }
     
     #noButton {
