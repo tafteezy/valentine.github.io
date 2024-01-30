@@ -56,7 +56,7 @@ body {
 
 #noButton {
     position: absolute;
-    left: 20px; /* Adjusted left margin */
+    margin-left: 150px; /* Adjusted left margin */
     transition: 0.5s;
 }
 
