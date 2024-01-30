@@ -77,10 +77,10 @@ body {
     }
     
     #noButton {
-        margin: 20px; /* Adjust margin for smaller screens */
+        margin-left: 20px; /* Adjust margin for smaller screens */
     }
     
     #yesButton {
-        margin: 20px; /* Adjust margin for smaller screens */
+        margin-right: 20px; /* Adjust margin for smaller screens */
     }
 }
