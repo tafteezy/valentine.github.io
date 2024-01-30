@@ -1,0 +1,86 @@
+body {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(234, 111, 222);
+    color: rgb(153, 26, 26);
+    font-family: cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title {
+    font-family: 'Nunito';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px; /* Adjusted margin for increased spacing */
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#enter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+
+#yesButton {
+    position: relative;
+    margin-right: 150px;
+}
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+    
+    .title {
+        font-size: 30px; /* Decrease font size for smaller screens */
+    }
+    
+    .btn {
+        padding: 10px 20px; /* Adjust button padding for smaller screens */
+    }
+    
+    #noButton {
+        margin: 20px; /* Adjust margin for smaller screens */
+    }
+    
+    #yesButton {
+        margin: 20px; /* Adjust margin for smaller screens */
+    }
+}
