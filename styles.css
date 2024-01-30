@@ -61,7 +61,7 @@ body {
 }
 
 #yesButton {
-    margin-right: 20px; /* Adjusted right margin */
+    margin-right: 150px; /* Adjusted right margin */
 }
 
 /* Adjustments for smaller screens */
@@ -74,8 +74,10 @@ body {
         padding: 10px 20px; /* Adjust button padding for smaller screens */
     }
 
-    #noButton,
+    #noButton{
+        margin-left:20px;
+    }
     #yesButton {
-        margin: 4px 10px; /* Adjust margin for smaller screens */
+        margin-right: 20px; /* Adjust margin for smaller screens */
     }
 }
