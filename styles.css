@@ -1,11 +1,13 @@
 body {
-    display:block;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
     background-color: rgb(234, 111, 222);
     color: rgb(153, 26, 26);
     font-family: cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0 20px; /* Add padding to body */
+    box-sizing: border-box; /* Ensure padding doesn't increase width */
 }
 
 .title {
@@ -54,37 +56,26 @@ body {
 
 #noButton {
     position: absolute;
-    margin-left: 150px;
+    left: 20px; /* Adjusted left margin */
     transition: 0.5s;
 }
 
 #yesButton {
-    margin-right: 150px;
+    margin-right: 20px; /* Adjusted right margin */
 }
+
 /* Adjustments for smaller screens */
 @media screen and (max-width: 768px) {
-    body {
-        padding: 10px; /* Reduce padding for smaller screens */
-    }
-    
     .title {
         font-size: 30px; /* Decrease font size for smaller screens */
     }
-    
+
     .btn {
         padding: 10px 20px; /* Adjust button padding for smaller screens */
-        margin: 4px 10px;
     }
-    
-    #noButton {
-        margin-left: 20px; /* Adjust margin for smaller screens */
-        margin: 4px 10px;
-        
-        
-    }
-    
+
+    #noButton,
     #yesButton {
-        margin-right: 20px; /* Adjust margin for smaller screens */
-        margin: 4px 10px;
+        margin: 4px 10px; /* Adjust margin for smaller screens */
     }
 }
