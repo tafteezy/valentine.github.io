@@ -53,12 +53,13 @@ body {
 }
 
 #noButton {
-    position: absolute;
+    position: relative;
     margin-left: 150px;
     transition: 0.5s;
 }
 
 #yesButton {
+    position: relative;
     margin-right: 150px;
 }
 /* Adjustments for smaller screens */
@@ -73,18 +74,13 @@ body {
     
     .btn {
         padding: 10px 20px; /* Adjust button padding for smaller screens */
-        margin: 4px 10px;
     }
     
     #noButton {
-        margin-left: 20px; /* Adjust margin for smaller screens */
-        margin: 4px 10px;
-        
-        
+        margin: 20px; /* Adjust margin for smaller screens */
     }
     
     #yesButton {
-        margin-right: 20px; /* Adjust margin for smaller screens */
-        margin: 4px 10px;
+        margin: 20px; /* Adjust margin for smaller screens */
     }
 }
